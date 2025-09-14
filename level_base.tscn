@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://hmeo007jrxcu"]
+
+[ext_resource type="Script" uid="uid://d4buy4b2redol" path="res://Floor.cs" id="1_c57mx"]
+
+[node name="LevelBase" type="Node2D"]
+
+[node name="Floor" type="TileMapLayer" parent="."]
+script = ExtResource("1_c57mx")
